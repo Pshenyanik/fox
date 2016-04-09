@@ -1,0 +1,248 @@
+
+* {
+  padding:0;
+  margin:0;
+  border:0;
+}
+
+body {
+  text-align: center;
+}
+
+.box2{
+    height: 55px;
+    text-align: center;
+    display: block; 
+    margin: 15px 0 15px 0;   
+}
+
+
+.button{
+
+    float: left;
+    height: 300 px;
+    width: 100 px;
+    color: white;
+    padding: 15px; 
+      margin:100px;
+  padding:100px;
+  display:block;
+  background:#575656;
+  border:#575656  1px solid;
+  margin:0 0px 0 0;
+  padding:15px 30px;
+  text-decoration:none;
+  color:white;
+  vertical-align:bottom;  
+}
+.button:hover {
+      color:white;
+  background:#3f3f3f;
+  border-left: #c8c8c8 solid 1px;
+  border-right: #c8c8c8 solid 1px;
+  
+}
+
+.conteiner2{
+    margin: 0px 0px 0px 0px;
+    align-content: center;    
+    display: block;
+   
+    
+}
+
+    ul{
+         text-align: left;
+    } 
+
+a:hover {
+  text-decoration: ;
+  
+}
+
+.content{
+    display: block;
+    float: left;
+    margin:0px 0px 0px -550px;
+   
+}
+
+
+.home {
+  margin: 0 auto;
+  width: 900px;
+  text-align: left;
+}
+
+.page {
+    align-content: center;
+    background: #575656;
+    margin:20px 0 0 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   
+}
+
+.home {
+    align-content: center;
+    margin:0 auto;
+    width: 900px;
+  
+}
+
+
+
+#navbar {
+           
+        padding: 6px 0px 0px 0px;
+        list-style-type: none;
+        width: 100px;
+        text-align: left;
+      }
+      
+    #maket {
+    width: auto; 
+    margin: 0 auto;
+   }
+   #maket TD {
+    vertical-align: top; /* Вертикальное выравнивание в ячейках */
+   }
+   TD#leftcol {
+    width: 600px; /* Ширина левой колонки в пикселах */
+   }
+    
+      #navbar a {
+          width: 220px; 
+        background-color:white;
+        color: grey;
+        border:#c8c8c8  1px solid;
+        border-collapse:collapse;
+        padding: 12px 10px 12px 15px ;       
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0px 20px 0px 150px;
+        display: block;
+      }  
+        #navbar a:hover {
+        background-color: #f9f9f9
+      }
+     
+      
+    ul{
+         text-align: left;
+    } 
+
+ 
+.one{
+    clear: both;
+    display: inline; 
+     margin:30px 0 0 0;      
+}
+
+
+.logo{
+   
+      margin: 50px 0 20px 0;  
+}
+
+.content{
+
+    margin:25px 100px 30px 128px;
+
+}
+.text{
+    margin: 20px 0 0 40px;
+}
+
+.sidebar{
+    width:300px;
+    height: 500px;
+    margin:20px 0px 0px -150px;
+     color: #575656;
+}
+
+.onekol{
+    width:300px;
+}
+.twokol{
+    width:600px;
+}
+
+.bike{
+      border:#c8c8c8  1px solid;
+}
+
+ 
+ p{
+         margin:30px 100px 0 100px;
+         text-align: left;
+         line-height: 15pt;
+          color: #575656;
+         
+  
+ }
+ 
+ .foter{
+      align-content: center;
+    background: #e1e1e1;
+    margin:30px 0px 0px 0;
+ }
+ 
+ .all{
+      float: right;
+       padding:15px 30px;
+        color: #575656;
+ }
+ 
+ .button1{
+    float: left;
+    height: 300 px;
+    width: 100 px;
+    color: #575656;
+    padding: 15px; 
+      margin:100px;
+  padding:100px;
+  display:block;
+    background: #e1e1e1;
+  margin:0 0px 0 0;
+  padding:15px 30px;
+  text-decoration:none;
+  vertical-align:bottom;  
+}
+.button1:hover {
+ text-decoration: underline;
+  
+}
+
+ #content2 LI {
+  display:inline-block;
+  margin:0 px;
+  vertical-align:left;
+  margin:0px;
+  padding:0px;
+
+}
+#content2 LI A {
+  margin:100px;
+  padding:100px;
+  display:inline-block;
+  background:#e1e1e1;
+  margin:0 0px 0 0;
+  padding:15px 30px;
+  text-decoration:none;
+  color:black;
+  vertical-align:bottom;
+}
+#content2 LI A:hover {
+  color:white;
+  background:#3f3f3f;
+}
+
+span{
+    text-align: right; 
+}
+
+ .conteiner {
+  
+    align-content: center;
+    
+}
