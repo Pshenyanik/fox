@@ -1,0 +1,187 @@
+
+* {
+  padding:0;
+  margin:0;
+  border:0;
+}
+
+body {
+background: url(фон.png) ;
+background-repeat-y: no-repeat;
+text-align: center;
+}
+
+.box{
+    width:1000px;
+    height: 995px;
+    align: center;
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+    display: block; 
+}
+.conteiner{
+    margin: -20px 0px 0px 0px;
+}
+
+.hader1{
+text-align: center;
+width:1000px;
+height: 179px;
+margin: 0 auto;
+display: flex;
+}
+
+.hader2 {
+text-align: center;
+display: flex;
+}
+
+.head1{
+    margin: 15px 0 0 30px;
+
+}
+
+.head2{
+    margin: 10px 0 0 500px;
+    color: #43d8e7;
+    text-align: left;
+    top: 7px;
+    left: 565px;
+}
+
+.head3{
+    margin: 20px 0 0 320px;
+    float: left;  
+    top: 112px;
+    left: 895px;
+}
+
+.mos{
+    display: block; 
+    
+}
+
+.sidebar p{
+    line-height: 25px;
+}
+
+.news p{
+    line-height: 25px;
+}
+
+.znak{
+    margin: 3px;
+}
+
+.menu{
+    background: #323232;
+}
+
+ul{
+      box-shadow: #323232 10px;
+}
+
+a:hover {
+  text-decoration: ;
+  
+}
+
+
+li{
+         list-style:none;
+         display:block;
+         float: left;
+         margin: 12px 30px ; 
+         padding-left: 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 11pt;
+    margin: 10px 0 0 0 ; 
+}
+
+.hader2:after{
+    content :'';
+    clear:both;
+    display: block;
+}
+
+.menu:after{
+    content :'';
+    clear:both;
+    display: block;
+}
+
+.site{
+     float: left;
+     display: flex;
+}
+
+
+.dropdown{
+    padding: 0 0 0 20px;
+}
+
+.sidebar { 
+width: 210px;
+height: 533px;
+background: #edeef0;
+}
+
+
+.content {
+width: 580px;
+margin:0auto;
+height: 533px;
+}
+
+.news {
+width: 210px;
+background: #edeef0;
+height: 533px;
+}
+
+
+.list1{
+ padding: 16px 5px 4px;
+ display: block; 
+}
+
+.konec{
+    color: #edeef0;
+    margin: 5px 0 0 0;
+}
+
+
+ul.dropdown li { position: relative; }
+ ul.dropdown,
+ ul.dropdown-inside {
+ list-style-type: none;
+ 
+ }
+ ul.dropdown-inside {
+ position: absolute;
+ left: -9999px;
+ }
+ ul.dropdown li.dropdown-top {
+ display: inline;
+ float: left;
+
+ }
+ ul.dropdown li.dropdown-top a {
+ padding: 10px 5px 4px;
+ display: block;
+
+ }
+
+
+ ul.dropdown li.dropdown-top:hover .dropdown-inside {
+ display: block;
+ left: 0;
+  margin: 0px 0px 0px -25px;
+ }
+ ul.dropdown .dropdown-inside { background: #323232; }
+ ul.dropdown .dropdown-inside a:hover { padding: 2px 5px 5px 15px; }
