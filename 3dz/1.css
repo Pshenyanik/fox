@@ -7,61 +7,41 @@
 
 body {
   text-align: center;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 
 .box2{
-    height: 40px;
+    height: 55px;
     text-align: center;
     display: block; 
-    margin: 15px 0 15px 0;  
-    clear: both; 
+    margin: 15px 0 15px 0;   
 }
 
-.info{
-    float: left;
-    margin: 0 auto;
-    width: 900px;
-    align-content: center;
-    margin: 0 0 0 0;
-    display: flex;
-}
-
-.col1{
-width: 250px;
-height: 660px;
-}
-
-.col2{
-width: 730px;
-margin:0auto;
-height: 660px;
-display: block; 
-padding: 0 0 0 120px;
-}
 
 .button{
 
     float: left;
-    height: 30 px;
+    height: 300 px;
     width: 100 px;
     color: white;
     padding: 15px; 
     margin:100px;
-  padding:100px;
-  display:block;
-  background-image: url(fon.png);
-  border:#575656  1px solid;
-  margin:0 0px 0 0;
-  padding:9px 30px;
-  text-decoration:none;
-  color:white;
-  vertical-align:bottom;  
+    padding:100px;
+    display:block;
+    background:#575656;
+    border:#575656  1px solid;
+    margin:0 0px 0 0;
+    padding:15px 30px;
+    text-decoration:none;
+    color:white;
+    vertical-align:bottom;  
 }
 .button:hover {
   color:white;
-  background:#424242;
-  border-left: rgba(255, 255, 255, .4) solid 1px;
-  border-right:  rgba(255, 255, 255, .4) solid 1px;
+  background:#3f3f3f;
+  border-left: #c8c8c8 solid 1px;
+  border-right: #c8c8c8 solid 1px;
+  cursor: pointer;
   
 }
 
@@ -69,61 +49,41 @@ padding: 0 0 0 120px;
     margin: 0px 0px 0px 0px;
     align-content: center;    
     display: block;
-    
- 
    
     
 }
 
-.conteiner3{
-    margin: 0px 0px 0px 0px;
-    align-content: center;    
-    display: block;
-    float: left;
-    background-image:  url(fon2.png);
-    width: 980px;
-    
- 
-   
-    
-}
     ul{
          text-align: left;
     } 
 
-a:hover {
-  text-decoration: ;
-  
-}
 
 .content{
     display: block;
     float: left;
-
+    margin:0px 0px 0px -550px;
    
 }
 
-.box2{
-       background-image: url(fon.png);
-}
+
 .home {
   margin: 0 auto;
-  width: 980px;
+  width: 900px;
   text-align: left;
 }
 
 .page {
     align-content: center;
+    background: #575656;
     margin:20px 0 0 0;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    display: block;
    
 }
 
 .home {
     align-content: center;
     margin:0 auto;
-    width: 980px;
+    width: 900px;
   
 }
 
@@ -153,19 +113,36 @@ a:hover {
         background-color:white;
         color: grey;
         border:#c8c8c8  1px solid;
-        border-collapse: collapse;
+        border-collapse:collapse;
         padding: 12px 10px 12px 15px ;       
         text-decoration: none;
-        font-weight: bold;
         margin: 0px 20px 0px 150px;
         display: block;
+        border-bottom: 0px;
       }  
+      
+      .bor a{
+        width: 220px; 
+        background-color:white;
+        color: grey;
+        border:#c8c8c8  1px solid;
+        border-collapse:collapse;
+        padding: 12px 10px 12px 15px ;       
+        text-decoration: none;
+        margin: 0px 20px 0px 150px;
+        display: block;
+      }
         #navbar a:hover {
-        background-color: #f9f9f9;
-        padding: 12px 10px 12px 22px ; 
-        width: 213px;
+        background-color: #f9f9f9; 
+        color: #2c2c2c;
+        cursor: pointer;
       }
      
+      .bor a:hover {
+        background-color: #f9f9f9;
+        color: #2c2c2c;
+        cursor: pointer;
+      }
       
     ul{
          text-align: left;
@@ -186,12 +163,11 @@ a:hover {
 
 .content{
 
-    margin:25px 100px 30px 27px;
+    margin:25px 100px 30px 128px;
 
 }
 .text{
-    margin: 20px 0 0 -50px;
-    width: 850px;
+    margin: 20px 0 0 40px;
 }
 
 .sidebar{
@@ -201,7 +177,12 @@ a:hover {
     color: #575656;
 }
 
-
+.onekol{
+    width:300px;
+}
+.twokol{
+    width:600px;
+}
 
 .bike{
       border:#c8c8c8  1px solid;
@@ -213,22 +194,25 @@ a:hover {
          text-align: left;
          line-height: 15pt;
          color: #575656;
+         
+  
  }
  
  .foter{
     align-content: center;
+    background: #e1e1e1;
     margin:30px 0px 0px 0;
  }
  
  .all{
-       float: right;
-       padding:15px 30px;
-       color: #575656;
+      float: right;
+      padding:15px 30px;
+      color: #575656;
  }
  
  .button1{
     float: left;
-    height: 40 px;
+    height: 300 px;
     width: 100 px;
     color: #575656;
     padding: 15px; 
@@ -237,13 +221,13 @@ a:hover {
     display:block;
     background: #e1e1e1;
     margin:0 0px 0 0;
-    padding:9px 30px;
+    padding:15px 30px;
     text-decoration:none;
     vertical-align:bottom;  
 }
-
 .button1:hover {
  text-decoration: underline;
+ cursor: pointer;
   
 }
 
@@ -269,28 +253,15 @@ a:hover {
 #content2 LI A:hover {
   color:white;
   background:#3f3f3f;
+  cursor: pointer;
 }
 
 span{
     text-align: right; 
 }
 
- .conteiner{ 
-    align-content: center;    
-}
-
-.box3{
+ .conteiner {
+  
+    align-content: center;
     
-    margin:30px 0px 0px 0;  
-    height: 40px;
-    width: 980px;    
 }
-
-
-.site{
-     float: left;
-     display: flex;
-}
-
-
-
