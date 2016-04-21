@@ -11,7 +11,7 @@ body {
 }
 
 .box2{
-    height: 55px;
+    height: 40px;
     text-align: center;
     display: block; 
     margin: 15px 0 15px 0;   
@@ -21,17 +21,17 @@ body {
 .button{
 
     float: left;
-    height: 300 px;
+    height: 30 px;
     width: 100 px;
     color: white;
     padding: 15px; 
     margin:100px;
     padding:100px;
     display:block;
-    background:#575656;
+    background-image: url(fon.png);
     border:#575656  1px solid;
     margin:0 0px 0 0;
-    padding:15px 30px;
+    padding:7px 30px;
     text-decoration:none;
     color:white;
     vertical-align:bottom;  
@@ -44,7 +44,12 @@ body {
   cursor: pointer;
   
 }
-
+.button a:visited {
+    color: white; /* Цвет посещенных ссылок */
+   }
+a{
+    text-decoration: none;
+}
 .conteiner2{
     margin: 0px 0px 0px 0px;
     align-content: center;    
@@ -53,6 +58,11 @@ body {
     
 }
 
+.conteiner3{
+    margin: 0px 0px 0px 0px;
+    align-content: center;    
+    display: block;
+}
     ul{
          text-align: left;
     } 
@@ -65,6 +75,9 @@ body {
    
 }
 
+.box2{
+       background-image: url(fon.png);
+}
 
 .home {
   margin: 0 auto;
@@ -114,11 +127,12 @@ body {
         color: grey;
         border:#c8c8c8  1px solid;
         border-collapse:collapse;
-        padding: 12px 10px 12px 15px ;       
+        padding: 12px 8px 10px 25px ;       
         text-decoration: none;
         margin: 0px 20px 0px 150px;
         display: block;
         border-bottom: 0px;
+        font-size: 10pt;
       }  
       
       .bor a{
@@ -127,21 +141,27 @@ body {
         color: grey;
         border:#c8c8c8  1px solid;
         border-collapse:collapse;
-        padding: 12px 10px 12px 15px ;       
+        padding: 12px 8px 10px 25px ;       
         text-decoration: none;
         margin: 0px 20px 0px 150px;
         display: block;
+        font-size: 10pt;
       }
         #navbar a:hover {
         background-color: #f9f9f9; 
         color: #2c2c2c;
         cursor: pointer;
+         padding: 12px 8px 10px 35px ;
+         width: 210px;
       }
+     
      
       .bor a:hover {
         background-color: #f9f9f9;
         color: #2c2c2c;
         cursor: pointer;
+         padding: 12px 8px 10px 35px ;
+         width: 210px;
       }
       
     ul{
@@ -200,7 +220,7 @@ body {
  
  .foter{
     align-content: center;
-    background: #e1e1e1;
+    background-image:  url(fon2.png);
     margin:30px 0px 0px 0;
  }
  
@@ -212,7 +232,7 @@ body {
  
  .button1{
     float: left;
-    height: 300 px;
+    height: 40 px;
     width: 100 px;
     color: #575656;
     padding: 15px; 
@@ -221,7 +241,7 @@ body {
     display:block;
     background: #e1e1e1;
     margin:0 0px 0 0;
-    padding:15px 30px;
+    padding: 9px 30px;
     text-decoration:none;
     vertical-align:bottom;  
 }
@@ -230,6 +250,9 @@ body {
  cursor: pointer;
   
 }
+.button1 a:visited {
+    color: #575656; /* Цвет посещенных ссылок */
+   }
 
  #content2 LI {
   display:inline-block;
@@ -264,4 +287,12 @@ span{
   
     align-content: center;
     
+}
+
+.box3{
+    background-image: url(fon2.png);
+    margin:30px 0px 0px 0;  
+    height: 40px;
+    width: 900px;
+     
 }
