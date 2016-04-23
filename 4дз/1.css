@@ -71,11 +71,23 @@ display: flex;
 }
 
 .znak{
-    margin: 3px;
+    margin: 3px 7px;
+    font-size: 8pt;
+}
+
+.znak a{
+    color: #4da7bd;
+}
+
+.head3 a:visited{
+    color: #4da7bd;
 }
 
 .menu{
-    background: #323232;
+    background-image: url(black.png);
+    background-repeat-y: no-repeat;
+    height: 33px;
+    margin: 20px 0 0 0px;
 }
 
 ul{
@@ -94,6 +106,8 @@ li{
          float: left;
          margin: 12px 30px ; 
          padding-left: 0;
+         height: 20px;
+         
 }
 
 .menu a{
@@ -117,39 +131,52 @@ li{
 
 .site{
      float: left;
-     display: flex;
+     margin: 0px 0 0 0;
 }
 
 
 .dropdown{
-    padding: 0 0 0 20px;
+    padding: 0 0 0 35px;
 }
 
 .sidebar { 
-width: 210px;
-height: 533px;
+width: 209px;
+height: 545px;
 background: #edeef0;
+border-right: #c7cacf 1px solid;
+float: left;
 }
 
+.site h3{
+    margin: -13px 0 2px 0;
+}
 
 .content {
 width: 580px;
 margin:0auto;
-height: 533px;
+height: 545px;
+float: left;
 }
 
 .news {
-width: 210px;
+width: 208px;
 background: #edeef0;
-height: 533px;
+height: 545px;
+border-left: #c7cacf 1px solid;
+float: left;
 }
 
 
 .list1{
  padding: 16px 5px 4px;
  display: block; 
+ height: 20px;
+ margin: -11px 27px 0 27px;
 }
 
+.dropdown-top{
+    margin: -14px 27px 0 27px;
+}
 .konec{
     color: #edeef0;
     margin: 5px 0 0 0;
@@ -160,11 +187,13 @@ ul.dropdown li { position: relative; }
  ul.dropdown,
  ul.dropdown-inside {
  list-style-type: none;
+ text-align: left;
  
  }
  ul.dropdown-inside {
  position: absolute;
  left: -9999px;
+ 
  }
  ul.dropdown li.dropdown-top {
  display: inline;
@@ -174,14 +203,25 @@ ul.dropdown li { position: relative; }
  ul.dropdown li.dropdown-top a {
  padding: 10px 5px 4px;
  display: block;
-
  }
 
 
  ul.dropdown li.dropdown-top:hover .dropdown-inside {
  display: block;
  left: 0;
-  margin: 0px 0px 0px -25px;
+  margin: 0px 0px 0px -10px;
  }
- ul.dropdown .dropdown-inside { background: #323232; }
- ul.dropdown .dropdown-inside a:hover { padding: 2px 5px 5px 15px; }
+ ul.dropdown .dropdown-inside { 
+     background-image: url(fonspis.png);
+     background-repeat: no-repeat;
+     padding: -13pxpx 0px 3pxpx 0px; 
+  }
+  
+  .dropdown-inside{
+      margin: -13pxpx 0px 3pxpx 0px;
+  }
+
+ .spisok{
+     text-align: left;
+      margin: -19px 35px 25px 8px;
+ }
