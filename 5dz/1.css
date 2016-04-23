@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
 background: url(фон.png) ;
 text-align: center;
@@ -14,37 +18,26 @@ vertical-align: middle;
     text-align: center;
     opacity:1;
     display: block; 
-    margin: 0 auto;   
+    margin: 0 auto; 
+ 
 }
 
 h3{
     color: rgb(255, 255, 255);
 }
 
-.form{
-      width: 550px;
-      height: 600px;
-      background-color: rgba(0, 0, 0, 0.6);
-      text-align: center;
-      color: rgba(255, 255, 255, 0.6);
-      padding: 8px 0 0 0;
-      align: center;
-      position:absolute;
-      margin: auto; 
-      text-align: center; 
-      vertical-align: middle;
-      left: 30%; /* Положение слоя от левого края */
-      top: 22%; /* Положение слоя от верхнего края */
 
-}
 
 button{
     height: 35px;
+    width: 130px;
+    font-size: 9pt; 
     background-image: url(but.png) ;
     border-radius: 8%;
     border: none;
     color: white;
 }
+
 button:hover{
     background: #4eabda;
 }
@@ -65,28 +58,48 @@ button:hover{
      background-image: url(header.png);
      background-repeat: no-repeat;
      box-shadow: 0 0 10px #4eabda ;
+     padding: 0 0 2px 15px;
      border: black 0px solid;
  }
+ 
+ .pen2{
+    height: 20px;
+    width: 100px; 
+   
+ }
+ 
+
+ 
+  .upt{
+    height: 32px;
+    width: 270px; 
+    background: #2c4178;
+    opacity: 1;
+    margin: 0 0 0 140px;
+    border-radius: 4px; 
+  }
  
  .but{
     float: right;
     height: 20 px;
     width: 100 px;
     color: #4eabda;
-    padding: 10px; 
+    padding: 10px 7px 0 7px; 
  }
  
 .button{
-    height: 24px;
+    height: 30px;
     float: right;
     color: #60b5ed;
-    padding: 17px;   
+    padding: 15px 9px 0 9px; 
+    font-size: 10pt;  
 }
 .button1{
-    height: 24px;
+    height: 30px;
     float: right;
     color: white;
-    padding: 17px;   
+    padding: 15px 9px 0 9px; 
+    font-size: 10pt;  
 }
 .button a{
    color: #60b5ed;
@@ -105,11 +118,39 @@ button:hover{
 
 .menu li{
     list-style-type: none;
+    
 }
 .conteiner{
     margin: -16px 0px 0px 0px;
-    align-content: center; 
+    align: center; 
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
+
+.lok{
+    align: center; 
+    text-align: center;
+    margin: 0 auto;
+    position: relative; 
+}
+
+.form{
+      margin: 0 auto;
+      width: 550px;
+      height: 560px;
+      background-color: rgba(0, 0, 0, 0.6);
+      text-align: center;
+      color: rgba(255, 255, 255, 0.6);
+      padding: 8px 0 0 0;
+      align: center; 
+      text-align: center; 
+      vertical-align: middle;
+      margin:160px 0px 0 370px;
+      position: absolute;
+     }
 
 .und{
     text-decoration: underline;
@@ -133,7 +174,7 @@ text-align: center;
 
 .menu{
     background: #07508e;
-       text-align: right;
+    text-align: right;
 }
 
 ul{
