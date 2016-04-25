@@ -148,8 +148,11 @@ button:hover{
       align: center; 
       text-align: center; 
       vertical-align: middle;
-      margin:160px 0px 0 370px;
-      position: absolute;
+        position: absolute;
+  top: 50%;
+  left: 28%;
+
+  margin: 180px 130px 0 0px;
      }
 
 .und{
