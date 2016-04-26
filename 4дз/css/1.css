@@ -1,4 +1,4 @@
-
+ 
 * {
   padding:0;
   margin:0;
@@ -6,14 +6,14 @@
 }
 
 body {
-background: url(фон.png) ;
+background: url(../img/фон.png) ;
 background-repeat-y: no-repeat;
 text-align: center;
 }
 
 .box{
     width:1000px;
-    height: 995px;
+    height: 937px;
     align: center;
     background: white;
     margin: 0 auto;
@@ -84,7 +84,7 @@ display: flex;
 }
 
 .menu{
-    background-image: url(black.png);
+    background-image: url(../img/black.png);
     background-repeat-y: no-repeat;
     height: 33px;
     margin: 20px 0 0 0px;
@@ -130,8 +130,8 @@ li{
 }
 
 .site{
-     float: left;
-     margin: 0px 0 0 0;
+     overflow: hidden;
+     width:1000px;
 }
 
 
@@ -141,10 +141,12 @@ li{
 
 .sidebar { 
 width: 209px;
-height: 545px;
 background: #edeef0;
 border-right: #c7cacf 1px solid;
 float: left;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+
 }
 
 .site h3{
@@ -153,17 +155,19 @@ float: left;
 
 .content {
 width: 580px;
-margin:0auto;
-height: 545px;
+margin: 0 auto;
 float: left;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
 }
 
 .news {
 width: 208px;
 background: #edeef0;
-height: 545px;
 border-left: #c7cacf 1px solid;
 float: left;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
 }
 
 
@@ -212,7 +216,7 @@ ul.dropdown li { position: relative; }
   margin: 0px 0px 0px -10px;
  }
  ul.dropdown .dropdown-inside { 
-     background-image: url(fonspis.png);
+     background-image: url(../img/fonspis.png);
      background-repeat: no-repeat;
      padding: -13pxpx 0px 3pxpx 0px; 
   }
