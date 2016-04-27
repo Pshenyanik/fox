@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-background: url(фон.png) ;
+background: url(../img/фон.png) ;
 text-align: center;
 background-repeat: no-repeat;
 background-position: center bottom;
@@ -32,7 +32,7 @@ button{
     height: 35px;
     width: 130px;
     font-size: 9pt; 
-    background-image: url(but.png) ;
+    background-image: url(../img/but.png) ;
     border-radius: 8%;
     border: none;
     color: white;
@@ -55,7 +55,7 @@ button:hover{
        border: black 1px solid;
       }
  input:hover{
-     background-image: url(header.png);
+     background-image: url(../img/header.png);
      background-repeat: no-repeat;
      box-shadow: 0 0 10px #4eabda ;
      padding: 0 0 2px 15px;
