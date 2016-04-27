@@ -128,6 +128,7 @@ button:hover{
     position: relative;
     justify-content: center;
     align-items: center;
+    height: 700px;
 }
 
 .lok{
@@ -148,9 +149,10 @@ button:hover{
       align: center; 
       text-align: center; 
       vertical-align: middle;
-        position: absolute;
-  top: 50%;
-  left: 28%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
 
   margin: 180px 130px 0 0px;
      }
