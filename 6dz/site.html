@@ -3,7 +3,7 @@
  <head>
   <meta charset="utf-8">
   <title>site</title>
-  <link rel="stylesheet" type="text/css" href="1.css" />
+  <link rel="stylesheet" type="text/css" href="css/1.css" />
  </head>
  <body>
      <header>
@@ -12,29 +12,30 @@
     <div class="box1">
             <div class="conteiner">
       <div class="exit1">
-          <div class="but1"><img src="тел.png"></div> 
+          <div class="but1"><img src="img/тел.png"></div> 
           <div  class="exit"> 
-              <div class="pen1"><img src="чел.png"></div> 
+              <div class="pen1"><img src="img/чел.png"></div> 
               <div class="pen"><input type="text" name="text1" placeholder=" логин" size="17"> </div>
               <div class="pen"><input type="password" name="password1" placeholder="пароль" size="17"></div>      
              <div class="nut but but5"><a href="#">забыли пароль?</a></div>
              <div class="nut but"><a href="#">вход</a><span style="color: white">&nbsp&nbsp|&nbsp&nbsp</span><a href="#">регистрация</a></div> 
          </div> 
+         <span>&nbsp&nbsp&nbsp</span>
           <div class="buts2">
-              <a href="#"><img class="img1" src="2.png"></a><a href="#"><img class="img2" src="1.png"></a><a href="#"><img class="img3" src="0.png"></a>
+              <a href="#"><img class="img1" src="img/2.png"></a><a href="#"><img class="img2" src="img/1.png"></a><a href="#"><img class="img3" src="img/0.png"></a>
           </div>
       </div>
    </div>
    </div>
          <div class="hader">
-         <img src="head.png">
+         <img src="img/head.png">
       </div>
     
     <div class="box2">  
          <div class="conteiner2">   
             <div class="menu">
             <div class="but">&nbsp&nbsp&nbsp</div>
-            <div class="but"><img src="счет.png"></div>
+            <div class="but"><img src="img/счет.png"></div>
             <div class="button"><a href="#">КОНТАКТЫ</a></div>
             <div class="button"><a href="#">СТАТЬИ</a></div>
             <div class="button"><a href="#">ДОСТАВКА</a></div>            
@@ -52,7 +53,7 @@
      <span class="bold colb">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspШины&nbsp&nbsp&nbsp&nbsp</span>
       <br>
        <br>
-        <table>
+        <table class="ones">
     <tr>
         <td>
     <span class="bold">Марка</span><span class="grey">&nbspавто:</span>
@@ -83,7 +84,7 @@
     </tr>
     <tr>
          <td>
-    <span class="bold">Модель</span><span class="grey">&nbspавтомобиля:</span>
+    <span class="bold">Модель</span><br><span class="grey">&nbspавтомобиля:</span>
     </td>
      <td>
    <select name="1">
@@ -96,7 +97,7 @@
          </td>
          
          <td>
-    <span class="bold">Модель</span><span class="grey">&nbspавтомобиля:</span>
+    <span class="bold">Модель</span><br><span class="grey">&nbspавтомобиля:</span>
    </td>
         <td>
   
@@ -111,7 +112,7 @@
      </tr>
      <tr>
                  <td>
-    <span class="bold">Год выпуска</span><span class="grey">&nbspавтомобиля:</span>
+    <span class="bold">Год выпуска</span><br><span class="grey">&nbspавтомобиля:</span>
     </td>
     <td>
    <select name="1">
@@ -127,6 +128,7 @@
     <span class="bold">Год выпуска</span><br><span class="grey">&nbspавтомобиля:</span>
     </td>
     <td>
+
    <select name="1">
     <option method="post"></option>
     <option value="1">1</option>
@@ -166,7 +168,7 @@
    
     
   </table>
-   <input class="ku" type="submit" value="ПОИСК...">
+   <input class="ku6 colb" type="submit" value="ПОИСК...">
     </div>
     
     
@@ -174,16 +176,19 @@
     
     
 <div class="content"> 
-      <span class="bold">&nbsp&nbsp&nbsp&nbspпоиск шин&nbsp&nbsp</span>
+      <span class="bold colb">&nbsp&nbsp&nbsp&nbspпоиск шин&nbsp&nbsp</span>
       <tr>
           <td>
+              <br>
+              <br>
       <table>
           <tr>
           <td>
+
    <span  class="bold">Размер:</span> 
     </td>
     <td>
-   <select name="1">
+   <select name="1" style="width: 50px;">
     <option method="post"></option>
     <option value="1">1</option>
     <option value="2">2</option>
@@ -195,7 +200,7 @@
     <span>/</span>
     </td>
     <td>
-   <select name="1">
+   <select name="1" style="width: 50px;">
     <option method="post"></option>
     <option value="1">1</option>
     <option value="2">2</option>
@@ -203,7 +208,7 @@
     <option value="4">4</option>
     </select>
          </td> 
-    </tr>
+       </tr>
    <tr>
   <td>
     <span class="bold">R</span>
@@ -229,7 +234,7 @@
        </tr>
      </table>   
      
-   <input class="ku" type="submit" value="ПОИСК..."> 
+   <input class="ku2 colb" type="submit" value="ПОИСК..."> 
 
 </div>
   
@@ -244,25 +249,25 @@
        
         
                
-                  
-                <span class="bold">поиск дисков</span>
-  
-        
-        
+                       
                <table>  
                <tr>
                    <td>
+                <span class="bold colb">поиск дисков</span>
+  
+        
+   
                          <table class="bor"> 
                              <tr>
                               <td>
                                  <span class="bold">  Диаметр</span>
-                                 <br>
+                               
                                  <span class="grey">&nbspдиска:</span>
                                </td>
             
             
                                <td>
-                                     <select name="1">
+                                     <select name="1" style="width: 50px;">
                                      <option method="post"></option>
                                      <option value="1">1</option>
                                     <option value="2">2</option>
@@ -280,7 +285,7 @@
                                 <span class="grey">&nbspкрепёжных <br>отверстий:</span>
                                 </td>
                                 <td>
-                                <select name="1">
+                                <select name="1" style="width: 40px;">
                                 <option method="post"></option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -297,7 +302,7 @@
                          </td>
                      
                       <td>
-                         <select name="1">
+                         <select name="1" style="width: 50px;">
                          <option method="post"></option>
                          <option value="1">1</option>
                          <option value="2">2</option>
@@ -319,28 +324,23 @@
              <td>
                   <span class="bold">ДЦО</span>
                   <br>
-                   <span class="grey">(диаметр центрального отверстия):</span>
-             </td>
-              <td>
-   <select name="1">
+                   <span class="grey">(диаметр <br> центрального <br> отверстия):</span>
+             <br>
+   <select name="1" style="width: 50px;">
     <option method="post"></option>
     <option value="1">1</option>
     <option value="2">2</option>
     <option value="3">3</option>
     <option value="4">4</option>
     </select>
-              </td>  
-              </tr>
-         
-             <tr>
+    
        <br>
-        <td>
+       
         <span class="bold">ЕТ</span>
-        
+        <br>
         <span class="grey">(вылет диска):</span>
-       </td>
-        <td>
-   <select name="1">
+     <br>
+   <select name="1" style="width: 50px;">
     <option method="post"></option>
     <option value="1">1</option>
     <option value="2">2</option>
@@ -352,11 +352,11 @@
        </table>
        </td>
    </tr>
-
    </table>
+   <input class="ku5 colb" type="submit" value="ПОИСК...">
   
   
-  <input class="ku" type="submit" value="ПОИСК...">
+  
   
 </div>
 
@@ -365,48 +365,48 @@
  </div>  
 <div class="site2">
 <div class="sidebar2">
-<img src="katalog.png">
+<img src="img/katalog.png">
 
 <div class="knop">
-    <img class="krug" src="znak.png">
+    <img class="krug" src="img/znak.png">
     <div class="ser"><span >ШИНЫ</span></div>
   </div>
     
     <div class="hot">
         <ul type="circle">
-          <li><a href="#">Наименование1</a></li>
-          <li><a href="#">Наименование2</a></li>
-          <li><a href="#">Наименование3</a></li>
-          <li><a href="#">Наименование4</a></li>
+          <li><a href="#">Наименование&nbsp1</a></li>
+          <li><a href="#">Наименование&nbsp2</a></li>
+          <li><a href="#">Наименование&nbsp3</a></li>
+          <li><a href="#">Наименование&nbsp4</a></li>
     </ul>  
     </div>  
     
     
     <div class="knop">
-    <img  class="krug" src="znak.png">
+    <img  class="krug" src="img/znak.png">
     <div class="ser"><span>ДИСКИ</span></div>
     </div>
     
      <div class="hot">
     <ul type="circle">
-        <li><a href="#">Наименование1</a></li>
-        <li><a href="#">Наименование2</a></li>
-        <li><a href="#">Наименование3</a></li>
-        <li><a href="#">Наименование4</a></li>
+        <li><a href="#">Наименование&nbsp1</a></li>
+        <li><a href="#">Наименование&nbsp2</a></li>
+        <li><a href="#">Наименование&nbsp3</a></li>
+        <li><a href="#">Наименование&nbsp4</a></li>
     </ul> 
     </div> 
     
     <div class="knop">
-    <img  class="krug" src="znak.png">
+    <img  class="krug" src="img/znak.png">
     <div class="ser"><span>БОЛТЫ</span></div>
     </div>
     
      <div class="hot">
     <ul type="circle">
-        <li><a href="#">Наименование1</a></li>
-        <li><a href="#">Наименование2</a></li>
-        <li><a href="#">Наименование3</a></li>
-        <li><a href="#">Наименование4</a></li>
+        <li><a href="#">Наименование&nbsp1</a></li>
+        <li><a href="#">Наименование&nbsp2</a></li>
+        <li><a href="#">Наименование&nbsp3</a></li>
+        <li><a href="#">Наименование&nbsp4</a></li>
     </ul> 
     </div> 
 
@@ -419,7 +419,7 @@
                 <ul>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">Goodyear </li>
                 <li>Ultra Grip Extreme</li>    
-                <li><img src="1tov.png"></li>
+                <li><img src="img/1tov.png"></li>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">90.00 грн.</li>  
                 </ul>
             </td>
@@ -427,7 +427,7 @@
                 <ul>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">Nokian</li>
                 <li>Hakkapeliitta R</li>    
-                <li><img src="2tov.png"></li>
+                <li><img src="img/2tov.png"></li>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">150.00 грн.</li>  
                 </ul>
             </td>
@@ -435,7 +435,7 @@
             <ul>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">Hankook</li>
                 <li>K 708 155/65 R14</li>    
-                <li><img src="3tov.png"></li>
+                <li><img src="img/3tov.png"></li>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">393.00 грн.</li>  
                 </ul>
             </td>
@@ -446,7 +446,7 @@
                 <ul>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">Goodyear </li>
                 <li>Ultra Grip Extreme</li>    
-                <li><img src="1tov.png"></li>
+                <li><img src="img/1tov.png"></li>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">90.00 грн.</li>  
                 </ul>
             </td>
@@ -454,7 +454,7 @@
                 <ul>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">Nokian</li>
                 <li>Hakkapeliitta R</li>    
-                <li><img src="2tov.png"></li>
+                <li><img src="img/2tov.png"></li>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">150.00 грн.</li>  
                 </ul>
             </td>
@@ -462,7 +462,7 @@
             <ul>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">Hankook</li>
                 <li>K 708 155/65 R14</li>    
-                <li><img src="3tov.png"></li>
+                <li><img src="img/3tov.png"></li>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">393.00 грн.</li>  
                 </ul>
             </td>
@@ -473,7 +473,7 @@
                 <ul>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">Goodyear </li>
                 <li>Ultra Grip Extreme</li>    
-                <li><img src="1tov.png"></li>
+                <li><img src="img/1tov.png"></li>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">90.00 грн.</li>  
                 </ul>
             </td>
@@ -482,7 +482,7 @@
                 <ul>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">Nokian</li>
                 <li>Hakkapeliitta R</li>    
-                <li><img src="2tov.png"></li>
+                <li><img src="img/2tov.png"></li>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">150.00 грн.</li>  
                 </ul>
             </td>
@@ -490,7 +490,7 @@
             <ul>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">Hankook</li>
                 <li>K 708 155/65 R14</li>    
-                <li><img src="3tov.png"></li>
+                <li><img src="img/3tov.png"></li>
                 <li style="font-weight: bold; color: #265171; font-size:11pt">393.00 грн.</li>  
                 </ul>
             </td>
@@ -499,11 +499,11 @@
 </div>
 
 <div class="news2">
-<img src="brend.png">
+<img src="img/brend.png">
 
 
 <div class="knop">
-    <img  class="krug" src="znak.png">
+    <img  class="krug" src="img/znak.png">
     <div class="ser"> <span>ШИНЫ</span></div>
     </div>
     
@@ -516,7 +516,7 @@
     </div>
     
     <div class="knop">
-    <img  class="krug" src="znak.png">
+    <img  class="krug" src="img/znak.png">
      <div class="ser"><span>ДИСКИ</span></div>
     </div>
     
@@ -529,12 +529,12 @@
     </div>
   
 <div class="nout">     
-<a href="#"><img src="w2.png"></a>
+<a href="#"><img src="img/w2.png"></a>
 </div>
 </div>
 </div>
 
-<img src="hi.png">
+<img src="img/hi.png">
 <br>
 
  </header>

@@ -13,7 +13,7 @@ header{
     height: 1300px;
     text-align: center;
     background: white;
-     margin: 0 auto; 
+    margin: 0 auto; 
 }
 
 .sidebar li{
@@ -76,12 +76,21 @@ header{
 }
 article{
     float:left;
-    
 }
+
+ .hot ul {
+     padding-left: -55px; /* Отступ от маркера до текста */
+   }
+
+
+    
+
 
 .colb{
  color: #154467;
  }
+ 
+
  
  .bold{
      font-weight: bold;
@@ -120,7 +129,7 @@ article{
 
  
  .exit{
-     background-image: url(blue.png);
+     background-image: url(../img/blue.png);
      background-repeat: no-repeat;
      border-radius: 8px;
      float: left;
@@ -280,7 +289,7 @@ text-align: center;
 }
 
 .menu{
-    background-image: url(black.png);
+    background-image: url(../img/black.png);
     background-repeat: no-repeat;
     text-align: right;
     border-radius: 7px;
@@ -323,9 +332,40 @@ ul{
     border-right: 1px solid #151719;
 }
 
+.ones select {
+    width: 85px; /* Ширина списка в пикселах */
+   }
+ .content td{
+     vertical-align: top;
+ }
+
 .ku{
     float: right;
-    margin: 5px;
+    margin: 0px 5px;
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+
+.ku5{
+    float: right;
+    margin: -8px 5px 0px 5px;
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+
+.ku6{
+    float: right;
+    margin: 8px 5px 0px 5px;
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+
+.ku2{
+    float: right;
+    margin: 25px 5px 5px 5px;
     border: none;
     background: none;
     text-decoration: underline;
@@ -340,33 +380,33 @@ td{
 
 
 .sidebar { 
-width: 370px;
-height: 175px;
+width: 390px;
+height: 165px;
 border:1px solid grey;
 border-radius: 15px;
 box-shadow: 0 0 10px ;
-margin: 10px 5px 0 0;
+margin: 10px 10px 0 5px;
 padding: 5px;
 }
 
 .content {
-width: 190px;
+width: 185px;
 margin:0auto;
-height: 175px;
+height: 165px;
 border:1px solid grey;
 border-radius: 15px;
 box-shadow: 0 0 10px ;
-margin: 10px 5px 0 0;
+margin: 10px 10px 0 0;
 padding: 5px;
 }
 
 .news {
-width: 300px;
-height: 175px;
+width: 270px;
+height: 165px;
 border:1px solid grey;
 border-radius: 15px;
 box-shadow: 0 0 10px;
-margin: 10px 5px 0 0;
+margin: 10px 0px 0 0;
 padding: 5px;
 }
 
@@ -393,7 +433,7 @@ text-align: center;
 width: 510px;
 margin:0 auto;
 height: 630px;
-background: url(fontov.png);
+background: url(../img/fontov.png);
 text-align: center;
 }
 
@@ -416,7 +456,7 @@ height: 165px;
 
 
 footer{
-    background-image: url(footer.png);
+    background-image: url(../img/footer.png);
     background-repeat: no-repeat;
     width:910px;
     height: 100px;
