@@ -10,7 +10,7 @@ body{
 
 header{
     width:910px;
-    height: 1300px;
+    height: 1220px;
     text-align: center;
     background: white;
     margin: 0 auto; 
@@ -20,39 +20,54 @@ header{
     margin: 0 0 0 20px;
 }
 
-.hot{
+.naimen{
     width: 85px;
-    color: #154467;
-    margin: 5px 0 0 60px;
+    color: #465961;
+    margin: 5px 0 -3px 60px;
+    line-height: 1.4;
 }
 
-.hot li{
+.naimen li{
     margin: 0 0 5px 0;
 }
 
-.hot a:visited{
+.naimen a:visited{
     color: #465961;
 }
-.hot a:hover{
-    color: #154467;
+.naimen a:hover{
+    color: #0c3256;
     font-style: italic;
     font-weight: bold;
     text-decoration: underline;
 }
 
-.hot2{
-    width: 85px;
-    color: #154467;
+.brend2{
+    width: 90px;
+    color: #465961;
     margin: 5px 0 16px 10px;
+      line-height: 0.9;
 }
 
-.hot22{
-    margin: 3px 0 -5px 6px;
-    padding: 0px 0 0px 0;
+.brend3{
+    width: 90px;
+    color: #465961;
+    margin: 10px 0 16px 10px;
+      line-height: 0.9;
 }
 
-.nout{
-    margin: 25px 0 0 -65px;
+.brend22{
+  
+    margin: 3px 0 -5px 10px;
+    padding: 0px 0 0px 3px;
+    font-size: 10pt;
+}
+
+.brend22 span{
+    margin-left: 8px;
+}
+
+.vibrat{
+    margin: 24px 0 0 -54px;
 }
 
 .buts2{
@@ -61,7 +76,7 @@ header{
     width: 75px;
     height: 19px;
     display: inline-block;
-    margin: 30px 0 0 430px; 
+    margin: 30px 0px 0 490px; 
     box-shadow: 0 0 3px rgba(0,0,0,0.5);
 }
 
@@ -78,7 +93,7 @@ article{
     float:left;
 }
 
- .hot ul {
+ .naimen ul {
      padding-left: -55px; /* Отступ от маркера до текста */
    }
 
@@ -96,6 +111,35 @@ article{
      font-weight: bold;
  }
  
+ .zagolovok1{
+     font-size: 7pt;
+     margin: 0px 65px 0px 16px;
+     letter-spacing: 0.7px;
+ }
+ 
+  .zagolovok2{
+     font-size: 9.2pt;
+     letter-spacing: 0.7px;
+ }
+ 
+  .zagolovok3{
+     font-size: 7pt;
+     margin: 0px 9px 0px 71px;
+     letter-spacing: 0.7px;
+ }
+ 
+  .zagolovok4{
+     font-size: 9.2pt;
+     margin: 0px 0px 10px 0px;
+     padding: 0px 0px 10px 0px;
+     letter-spacing: 0.7px;
+ }
+ 
+   .zagolovok5{
+     font-size: 9.2pt;
+     letter-spacing: 0.7px;
+ }
+ 
  .krug{
      padding: 0px 0 0px 4px;
  }
@@ -104,11 +148,38 @@ article{
  .knop{
     text-align: left;
     border: 1px solid lightgrey;
-    border-radius: 20px;
-    width: 150px;
+    border-radius: 13px;
+    width: 148px;
     height: 24px ;
-    margin: 0 0 0 10px;
-    color: #175274;
+    margin: 5px 0 0 9px;
+    padding: 1.8px 0 1.8px 0px;
+    color: #465961;
+    list-style: circle;
+    vertical-align: top;
+}
+
+ .knop2{
+    text-align: left;
+    border: 1px solid lightgrey;
+    border-radius: 13px;
+    width: 134px;
+    height: 24px ;
+    margin: 9px 0 0 16px;
+    padding: 1.8px 0 1.8px 0px;
+    color: #465961;
+    list-style: circle;
+    vertical-align: top;
+}
+
+ .knop3{
+    text-align: left;
+    border: 1px solid lightgrey;
+    border-radius: 13px;
+    width: 134px;
+    height: 24px ;
+    margin: 21px 0 0 14px;
+    padding: 1.8px 0 1.8px 0px;
+    color: #465961;
     list-style: circle;
     vertical-align: top;
 }
@@ -131,10 +202,10 @@ article{
  .exit{
      background-image: url(../img/blue.png);
      background-repeat: no-repeat;
-     border-radius: 8px;
+     border-radius: 6px;
      float: left;
-     height: 30px;
-     margin: 27px 0px -60px 10px;
+     height: 29px;
+     margin: 27px 0px -60px 6px;
      font-size: 7pt;
  }
 
@@ -143,12 +214,12 @@ article{
        float: left;
    }
       .pen1{
-       margin: 5px 3px 2px 10px;
+       margin: 5px -1px 2px 8px;
        float: left;
    }
    
    input{ 
-       height: 14px;
+       height: 15px;
        padding: -3px 0 0 7px; 
        border: grey 1px solid;
       }
@@ -171,15 +242,19 @@ article{
     height: 20 px;
     width: 100 px;
     color: white;
+    font-size: 8pt;
+    letter-spacing: 0.5px;
  }
 
  .nut{
-     margin: -5px 0 0 0;
+     margin: -3px 0 0 -5px;
  }
  
   .but5{
    text-decoration: underline;
    opacity: 0.8;
+   margin: -3px 7px 0 0px;
+   letter-spacing: 0.6px;
  }
  
   .but1{
@@ -187,7 +262,7 @@ article{
     height: 300 px;
     width: 100 px;
     padding: 10px; 
-    margin: 20px 0 0 0;
+    margin: 21px 0 0 -7px;
  }
 
 .box1{
@@ -225,8 +300,17 @@ button:hover{
 text-align: center;
 align-content: center;  
  margin: 0 auto; 
+ font-weight: 100;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.kosh{
+    display: flex;
+    float: right;
+    margin: 8px 13px 8px 45px;
+}
+
+
 
  .but{
     float: right;
@@ -236,15 +320,21 @@ align-content: center;
     padding: 10px; 
  }
  
+ 
+ .kosh p{
+      margin:0 5px;
+      font-size: 10pt;
+ }
+ 
 .button{
 
     float: right;
-    height: 20 px;
-    width: 120 px;
-    color: white;
-    padding: 6px; 
-    margin: 4px;
-    font-size: 9pt;  
+    height: 16 px;
+    width: 180 px;
+    color: #b1bcc0;
+    padding: 4px 6px 5px 6px; 
+    margin: 4px 1px 2px 2px;
+    font-size: 10pt;  
 }
 
 .grey{
@@ -257,14 +347,15 @@ align-content: center;
     color:white;
     border-radius: 35px;
     height: 20 px;
-    width: 120 px;
+    width: 180 px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
   
 }
 
 .button a{
     color: white;
     text-decoration: none;
-    padding: 0 10px 0 10px;
+    padding: 0 12px 0 12px;
 }
 
 
@@ -274,7 +365,7 @@ align-content: center;
      float: top;
      text-align: center;
      align-content: center; 
-     margin: 0px 0 -60px 10px;
+     margin: 1px 0 -60px 4px;
      display: inline-block;
  }
 
@@ -328,13 +419,47 @@ ul{
      text-align: left;
 }
 
-.bor{
-    border-right: 1px solid #151719;
+.ones select {
+    width: 100px; /* Ширина списка в пикселах */
+   }
+   
+ .ones{
+    font-size: 7pt;
+    margin: -7px 0 0 4px; 
+    line-height: 1.5;
+    border-spacing: 0px 2px;
+ }
+ 
+ .twos{
+    font-size: 7pt;
+    margin: -7px 0 8px 4px; 
+    line-height: 1.5;
+    border-spacing: 0px 3.6px;
+    padding: 1px 0 0px 4px; 
+ }
+ 
+ .threes{
+    font-size: 7pt;
+    margin: -7px 0 8px 1px; 
+    line-height: 1.5;
+    border-spacing: 0px 3.6px;
+    padding: 1px 0 0px 4px; 
 }
 
-.ones select {
-    width: 85px; /* Ширина списка в пикселах */
-   }
+.liniya{
+        border-right: 1px solid  #9c9c9d;
+        padding: 0 20px 0 0;
+}
+
+.kol2{
+    padding: 0px 0 0 0;
+    margin: 0px 0 0 -10px;
+}
+ 
+ .lineh{
+     line-height: 0.6;
+ }
+ 
  .content td{
      vertical-align: top;
  }
@@ -349,26 +474,29 @@ ul{
 
 .ku5{
     float: right;
-    margin: -8px 5px 0px 5px;
+    margin: -11px 8px 0px 0px;
     border: none;
     background: none;
     text-decoration: underline;
+    font-style: italic;
 }
 
 .ku6{
     float: right;
-    margin: 8px 5px 0px 5px;
+    margin: 8px 15px 0px 5px;
     border: none;
     background: none;
     text-decoration: underline;
+    font-style: italic;
 }
 
 .ku2{
     float: right;
-    margin: 25px 5px 5px 5px;
+    margin: -15px 17px 5px 5px;
     border: none;
     background: none;
     text-decoration: underline;
+    font-style: italic;
 }
 
 tr{
@@ -380,34 +508,34 @@ td{
 
 
 .sidebar { 
-width: 390px;
-height: 165px;
-border:1px solid grey;
+width: 402px;
+height: 128px;
+border:1px solid #9c9c9d;
 border-radius: 15px;
-box-shadow: 0 0 10px ;
-margin: 10px 10px 0 5px;
-padding: 5px;
+box-shadow: 2px 4px 10px rgba(0,0,0,0.5);
+margin: 11px 15px 0 5px;
+padding: 0px 5px 5px 5px;
 }
 
 .content {
-width: 185px;
+width: 192px;
 margin:0auto;
-height: 165px;
-border:1px solid grey;
+height: 133px;
+border:1px solid #9c9c9d;
 border-radius: 15px;
-box-shadow: 0 0 10px ;
-margin: 10px 10px 0 0;
-padding: 5px;
+box-shadow: 2px 4px 10px rgba(0,0,0,0.5);
+margin: 11px 9px 0 0;
+padding: -6px 5px 5px 5px;
 }
 
 .news {
-width: 270px;
-height: 165px;
-border:1px solid grey;
+width: 260px;
+height: 128px;
+border:1px solid #9c9c9d;
 border-radius: 15px;
-box-shadow: 0 0 10px;
-margin: 10px 0px 0 0;
-padding: 5px;
+box-shadow: 2px 4px 10px rgba(0,0,0,0.5);
+margin: 11px 0px 0 0;
+padding:  0px 5px 5px 0px;
 }
 
 
@@ -415,7 +543,7 @@ padding: 5px;
 .site2{
 
      font-size: 10pt;
-     margin: 15px 0 0 0; 
+     margin: 15px 0 -2px 0; 
      float: left;
      display: flex;
      font-size: 10pt;
@@ -423,35 +551,52 @@ padding: 5px;
 }
 
 
+.foot{
+    margin: 0 0 -10px 2px;
+    padding: 0;
+}
+
 .sidebar2 { 
-width: 200px;
+width: 199px;
 height: 665px;
 text-align: center;
+padding: 4px 0 0 0;
+margin: 0 0 0 -7px;
 }
 
 .content2 {
-width: 510px;
+width: 516px;
 margin:0 auto;
-height: 630px;
+height: 626px;
 background: url(../img/fontov.png);
 text-align: center;
+padding: 2px 4px 0 5px; 
+line-height: 1;
+margin: 0 2px 0 -1px;
+
+}
+
+.content2 table{
+    border-spacing: 0px 4px;
 }
 
 .content2 ul{
     margin: 10px 11px;
     list-style: none;
+    font-size: 8pt;
 }
 
 .news2 {
-width: 200px;
+width: 184px;
 height: 665px;
 text-align: center;
+padding: 1px 0 0 7px;
 }
 
 
 .rec{
    width: 200px;
-height: 165px; 
+   height: 165px; 
 }
 
 
@@ -461,16 +606,20 @@ footer{
     width:910px;
     height: 100px;
     text-align: center;
-    margin: 0 auto; 
+    margin:0 auto; 
     color: white;
-    padding: 9px 0 0 0;
+    padding: 7px 0 0 0;
     
+}
+
+foot2{
+    margin: 0 0 8px 0;
 }
 
 footer a{
     text-decoration: none;
     color: white;
-    font-size: 11pt;
+    font-size: 9pt;
 }
 footer span{
     margin: 18px 0 0 0;
@@ -478,7 +627,7 @@ footer span{
 
 footer p{
     color: #7f4740;
-    font-size: 8pt;
+    font-size:8pt;
 }
 
 footer a:hover{
