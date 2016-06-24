@@ -1,46 +1,89 @@
-// Заголовок страницы (h1)
-var title = ['Тест по программированию'];
+
+    var element = document.createElement('div');
+    element.classList.add('box1');
+    element.innerHTML='Тест по программированию';
+    element.style.textAlign = "center";
+    element.style.marginTop = "10px";
+    document.body.appendChild(element);
 
 
-// Это ваши вопросы
-var questions=[
-{
-    text: "Вопрос №1",
-    answers: ["Вариант ответа №1",
-          "Вариант ответа №2",
-          "Вариант ответа №3"],
+    var element = document.createElement('ul');
+    element.classList.add('box2');
+    element.innerHTML='1. Вопрос №1';
+    element.style.textAlign = "left";
+    element.style.marginTop = "30px";
+    element.style.marginBottom = "30px";
+    element.style.marginLeft = "60px";
+    document.body.appendChild(element);
+    
 
-},
-{
-    text: "Вопрос №2",
-    answers: ["Вариант ответа №1",
-          "Вариант ответа №2",
-          "Вариант ответа №3"],
+    
 
-},
-{
-    text: "Вопрос №3",
-    answers: ["Вариант ответа №1",
-          "Вариант ответа №2",
-          "Вариант ответа №3"],
-        }
-];
+    
+    var element = document.createElement('ul');
+    element.classList.add('box4');
+    element.innerHTML='2. Вопрос №2';
+    element.style.textAlign = "left";
+    element.style.marginTop = "30px";
+    element.style.marginBottom = "30px";
+    element.style.marginLeft = "60px";
+    document.body.appendChild(element);
+    
+    
+    var element = document.createElement('ul');
+    element.classList.add('box6');
+    element.innerHTML='3. Вопрос №3';
+    element.style.textAlign = "left";
+    element.style.marginTop = "30px";
+    element.style.marginBottom = "30px";
+    element.style.marginLeft = "60px";
+    document.body.appendChild(element);
+    
+    var list2 = document.querySelector('.box4');
+    var newListElem2 = document.createElement('LI');
+    newListElem2.innerHTML = '<input type="checkbox" value="">' + 'Вариант ответа № 1';
+    list2.appendChild(newListElem2);
+    var newListElem2 = document.createElement('LI');
+    newListElem2.innerHTML = '<input type="checkbox" value="">' + 'Вариант ответа № 2';
+    list2.appendChild(newListElem2);
+    var newListElem2 = document.createElement('LI');
+    newListElem2.innerHTML = '<input type="checkbox" value="">' + 'Вариант ответа № 3';
+    list2.appendChild(newListElem2);
+    
+    
+          
+          
+        var list = document.querySelector('.box2');
+    var newListElem = document.createElement('LI');
+    newListElem.innerHTML = '<input type="checkbox" value="">' + 'Вариант ответа № 1';
+    list.appendChild(newListElem);
+    var newListElem = document.createElement('LI');
+    newListElem.innerHTML = '<input type="checkbox" value="">' + 'Вариант ответа № 2';
+    list.appendChild(newListElem);
+    var newListElem = document.createElement('LI');
+    newListElem.innerHTML = '<input type="checkbox" value="">' + 'Вариант ответа № 3';
+    list.appendChild(newListElem);
+    
+    
+          
+          
+        var list = document.querySelector('.box6');
+    var newListElem = document.createElement('LI');
+    newListElem.innerHTML = '<input type="checkbox" value="">' + 'Вариант ответа № 1';
+    list.appendChild(newListElem);
+    var newListElem = document.createElement('LI');
+    newListElem.innerHTML = '<input type="checkbox" value="">' + 'Вариант ответа № 2';
+    list.appendChild(newListElem);
+    var newListElem = document.createElement('LI');
+    newListElem.innerHTML = '<input type="checkbox" style="color:blue; border:black 1px" value="" style="background:blue;">' + 'Вариант ответа № 3';
+    list.appendChild(newListElem);
+
+    
+    var element = document.createElement('div');
+    element.innerHTML='<input type="button" value="Проверить мои результаты" style="height:35px; width:195px; background:#cfe2f3;">';
+    element.style.textAlign = "center";
+    element.style.marginTop = "10px";
+    document.body.appendChild(element);
 
 
-
-
-document.writeln(title);
-
-
-
-
-for(var q=0; q<questions.length; ++q) {
-   var question = questions[q];
-   var idx = 1 + q;
-
-   document.writeln('<br/><br/><li><span class="quest">' + question.text + '</span><br/><br/>');
-      for(var i in question.answers) {
-    document.writeln('<input type=checkbox  name="q' + idx + '" value="' + i +
-    '" onClick="Engine(' + q + ', this.value)">' + question.answers[i] + '<br/>');
-}
-}
+    
