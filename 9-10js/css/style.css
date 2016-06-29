@@ -1,0 +1,195 @@
+@import '//fonts.googleapis.com/css?family=Lato:400,400italic|Arvo:700,400,400italic';
+
+body {
+    background: #F0EFE7;
+    margin: 0;
+    padding: 0;
+    font: 15px/1.5 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #4E443C;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arvo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: normal;
+  text-rendering: optimizelegibility;
+}
+
+h1 {
+    color: #4E443C;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2, h2 a {
+    color: #F14E32;
+}
+
+h3, h3 a {
+  color: #0388A6;
+}
+
+a {
+  color: #0388A6;
+}
+
+pre {
+  border:1px solid #000;
+  overflow-x:auto;
+  background: #222;
+  color: #fff;
+  text-shadow: none;
+}
+
+.wrapper {
+    max-width: 620px;
+    padding: 0 20px 40px 20px;
+    margin: auto;
+}
+
+
+.forma1{
+  background: #fff;
+  font: 0.875em Arial, Helvetica, sans-serif;
+}
+
+	.niceCheck {
+width: 17px;
+height: 17px;
+display: inline-block;
+cursor: pointer;
+background: url(../img/checkbox.png);
+  }
+.niceCheck input {
+display: none;
+}
+
+.main1{
+  display: block;
+  margin-top: 40px; 
+  background: #99ccff;
+  padding: 10px 20px;
+}
+
+
+
+.main2 input[type=checkbox] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+.main2 label {
+	cursor: pointer;
+}
+.main2 label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+.main2 input[type=checkbox]:checked + label:after {
+background-position: 0 -17px;
+}
+
+.main2{
+  display: block;
+  margin-top: 40px; 
+  background: #94fcff;
+  padding: 10px 20px;
+}
+
+.main3{
+  display: block;
+  margin-top: 40px; 
+  background: #11aaaf;
+  padding: 10px 20px;
+   color:white;
+}
+
+.main3 input[type=checkbox] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+.main3 label {
+	cursor: pointer;
+}
+.main3 label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/1.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+ 
+}
+.main3 input[type=checkbox]:checked + label:after {
+background: url(../img/2.png);
+}
+
+.menu ul{
+box-shadow: 0 3px 5px;
+}
+
+#nav, #nav ul{
+margin:0;
+padding:0;
+list-style-type:none;
+list-style-position:outside;
+position:relative;
+line-height:1.5em;
+box-shadow: 0 3px 5px;
+}
+
+#nav a{
+display:block;
+padding:0px 10px;
+border:1px solid #333;
+color:#fff;
+text-decoration:none;
+background-color:#333;
+}
+
+#nav a:hover{
+background-color:#fff;
+color: #333;
+}
+
+#nav li{
+float:left;
+position:relative;
+}
+
+#nav ul {
+position:absolute;
+display:none;
+width:12em;
+top:1.5em;
+}
+
+#nav li ul a{
+width:12em;
+height:auto;
+float:left;
+}
+
+#nav ul ul{
+top:auto;
+}	
+
+#nav li ul ul {
+left:12.5em;
+margin:0px 0 0 10px;
+}
+
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul{
+display:none;
+}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul{
+display:block;
+}

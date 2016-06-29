@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Carousel</title>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/jcarousel.data-attributes.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/dist/jquery.jcarousel.min.js"></script>
+        <script type="text/javascript" src="js/jcarousel.data-attributes.js"></script>
+		  <link rel="stylesheet" type="text/css" media="all" href="css/jquery.selectbox.css" />  
+		  <script type="text/javascript" src="js/jquery.selectbox-0.6.1.js"></script>
+
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <div class="jcarousel-wrapper">
+                <div data-jcarousel="true" data-wrap="circular" class="jcarousel">
+                    <ul>
+                        <li><img src="img/img1.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img2.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img3.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img4.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img5.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img6.jpg" width="600" height="400" alt=""></li>
+                    </ul>
+                </div>
+
+               
+
+                <a data-jcarousel-control="true" data-target="-=1" href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a data-jcarousel-control="true" data-target="+=1" href="#" class="jcarousel-control-next">&rsaquo;</a>
+            </div>
+      
+        
+        
+        
+        <br>
+        
+        
+<div class="demoTarget">
+						<select id="default-usage-select">
+							<option value="--">Please select your favorite color</option>
+							<option value="01">Red</option>
+							<option value="02">Orange</option>
+							<option value="03">Yellow</option>
+							<option value="04">Green</option>
+							<option value="05">Blue</option>
+							<option value="06">Magenta</option>
+							<option value="07">Violet</option>
+							<option value="08">Ultra-violet</option>
+						</select>
+						<div class="clr"></div>
+</div>
+
+    <div class="main1">
+	    <form action="#">
+	        <div><label for="ch1">label 1</label><span class="niceCheck"><input type="checkbox" name="" id="ch1" value="on" tabindex="1"></span> </div>
+	        <div><label for="ch2">label 2</label><span class="niceCheck"><input type="checkbox" name="" id="ch2" checked="true" value="2" tabindex="2"></span></div>
+        	<div><label for="ch3">label 3</label><span class="niceCheck niceChecked niceCheckDisabled"><input type="checkbox" name="" id="ch3" checked="true" value="on" tabindex="0" disabled=""></span></div>
+	    </form>	
+    </div>            
+                
+
+    
+
+  
+   
+   
+     <div class="main2">
+  <div><input type="checkbox" id="test-check1"/><label for="test-check1">Чекбокс 1:</label></div>
+   <div><input type="checkbox" id="test-check2"/><label for="test-check2">Чекбокс 2:</label></div>
+    <div><input type="checkbox" id="test-check3"/><label for="test-check3">Чекбокс 3:</label></div>  
+   </div>  
+   
+       
+  
+ 
+    
+       <div class="main3">
+  <div><input type="checkbox" id="test1"/><label for="test1">Мой чекбокс 1:</label></div>
+   <div><input type="checkbox" id="test2"/><label for="test2">Мой чекбокс 2:</label></div>
+    <div><input type="checkbox" id="test3"/><label for="test3">Мой чекбокс 3:</label></div>  
+   </div>  
+   
+ 
+  
+
+
+<br>
+    <div class="menu">
+   <ul id="nav">
+  <li><a href="#">text1</a></li>
+  <li><a href="#">tex2</a></li>
+  <li><a href="#">text3</a>
+    <ul class="ul1">
+      <li><a href="#">text1.1</a></li>
+      <li><a href="#">text1.2</a>
+             <ul>
+                 <li><a href="#">text1.1.0</a></li>
+                 <li><a href="#">text1.1.1</a></li>
+                 <li><a href="#">text1.1.2</a></li>
+        </ul>
+    </li>
+      <li><a href="#">text1.3</a></li>
+    </ul>
+  </li>
+  <li><a href="#">text4</a> </li>
+</ul>
+</div>
+
+
+
+
+
+</div> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  <script type="text/javascript">
+  
+  
+        function mainmenu(){
+               $("#nav li").hover(function(){
+	        	$(this).find('ul:first').css({visibility: "visible",display: "none"}).show(400);
+	        	},function(){
+	        	$(this).find('ul:first').css({visibility: "hidden"});
+	        	});
+}
+
+ 
+ 
+        $(document).ready(function(){					
+        	mainmenu();
+            });
+</script>
+
+ 
+ 
+       
+    
+                     
+        <script type="text/javascript">
+			$("#default-usage-select").selectbox().bind('change', function(){
+				$('<div>Value of #default-usage-select changed to: '+$(this).val()+'</div>').appendTo('#demo-default-usage .demoTarget').fadeOut(5000, function(){
+					$(this).remove();
+				});
+			});
+		</script>
+        
+        
+        
+      <script type="text/javascript">
+jQuery(document).ready(function(){
+jQuery(".niceCheck").mousedown(
+function() {
+     changeCheck(jQuery(this));
+});
+jQuery(".niceCheck").each(
+function() {
+     changeCheckStart(jQuery(this));
+});
+                                        });
+function changeCheck(el)
+{
+     var el = el,
+          input = el.find(".main1 input").eq(0);
+     if(!input.attr("checked")) {
+        el.css("background-position","0 -17px");    
+        input.attr("checked", true)
+    } else {
+        el.css("background-position","0 0");    
+        input.attr("checked", false)
+    }
+     return true;
+}
+function changeCheckStart(el)
+{
+var el = el,
+        input = el.find(".main1 input").eq(0);
+      if(input.attr("checked")) {
+        el.css("background-position","0 -17px");    
+        }
+     return true;
+}
+</script>
+        
+    </body>
+</html>
