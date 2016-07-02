@@ -1,0 +1,580 @@
+       *{
+           margin: 0;
+           padding: 0;
+       }
+       
+     body{
+         text-align: center;
+         color: white;
+         font-family: Tahoma, sans-serif;
+         font-stretch: ultra-condensed;
+         margin: 0 auto;
+         overflow-x:hidden;
+     }
+     
+     .site{
+		 text-align: center;
+		 overflow: hidden;
+     }
+	 
+
+	 .conteiner{
+		 text-align: center;
+		 width: 100%;
+	 }
+   
+     .site{
+         width: 800px;
+         margin: 0 auto;
+     }
+     
+     
+     
+
+         
+           footer{
+               -moz-text-align: left;
+               text-align: left;
+               -webkit-padding: 60px 0 0 0;
+               padding: 60px 0 0 0;
+               float: center;
+               -webkit-margin: 0 auto;
+               -moz-margin: 0 auto;
+               margin: 0 auto; 
+               height: 197px;
+            }
+       .one{
+           -webkit-margin: 40px;
+           -moz-margin: 40px;
+           margin: 40px;
+       }    
+       .two{
+           width:100px;
+           align-self: center;
+           margin: 0px;
+           -webkit-float: center;
+           -moz-float: center;
+           float: center;
+           -webkit-margin: 0 auto;
+           -moz-margin: 0 auto;
+           margin: 0 auto;
+           line-height: 2px;
+           -o-border-bottom: 2px solid violet;
+           -webkit-border-bottom: 2px solid violet;
+           border-bottom: 2px solid violet;
+           -moz-text-align: left;
+           text-align: left;
+       }
+     
+       
+        .content1 .read { color: white;
+        -webkit-text-decoration: none;
+        text-decoration: none; 
+        -webkit-float: right;
+        -moz-float: right;
+        float: right;
+        }
+         .content1 .read:hover { 
+             text-shadow: 0.1em 0.1em 0.2em white; 
+          }
+          
+
+       .content1{
+           -webkit-text-align: left;
+           -moz-text-align: left;
+           text-align: left;
+           -webkit-margin: 0 auto;
+           -moz-margin: 0 auto;
+           margin: 0 auto; 
+           -webkit-float: center;
+           -moz-float: center;
+           float: center;
+           
+       }
+       
+
+       
+       .key {
+           -webkit-padding: 5px;
+           padding: 5px;
+       }
+       
+       td{
+           -webkit-padding: 5px;
+           padding: 6px;
+         }
+       
+        .row otstup{
+            vertical-align: middle;
+        }
+
+       .knop{
+           -webkit-margin: 15px;
+           -moz-margin: 15px;
+           margin: 15px;
+           text-shadow: 0.1em 0.1em 0.2em black;
+       }  
+       .knopka{
+           -webkit-margin: 15px;
+           -moz-margin: 15px;
+           margin: 15px;
+           text-shadow: 0.1em 0.1em 0.1em black;
+       } 
+       .content2{
+           -webkit-padding: 10px;
+           padding: 10px;
+           -webkit-margin: 0px;
+           -moz-margin: 0px;
+           margin: 0px;
+           -webkit-float: center;
+           -moz-float: center;
+           float: center;
+           margin: 0 auto; 
+       }
+       .podcon1{
+           -webkit-margin: 10px;
+           -moz-margin: 10px;
+           margin: 10px;
+       }
+       .podcon2{
+           -webkit-margin: 10px;
+           -moz-margin: 10px;
+           margin: 10px;
+           vertical-align: bottom;
+       }
+       .content3{
+           color: black;
+           -moz-text-align: left;
+           text-align: left;
+           margin: 0px;
+           -webkit-float: center;
+           -moz-float: center;
+           float: center;
+           -webkit-margin: 0 auto ;
+           -moz-margin: 0 auto; 
+           margin: 0 auto; 
+           vertical-align: middle;
+       }
+       .five{
+           font-weight: normal;
+           -webkit-margin: 20px;
+           -moz-margin: 20px;
+           margin: 20px;
+           text-shadow: 0.1em 0.1em 0.1em black;
+       }
+       .two a{
+           -webkit-text-decoration: none;
+           text-decoration: none;
+           color: white;
+       }
+       .two a:hover{
+           text-shadow: 0.1em 0.1em 0.1em white;
+       }
+     
+    
+    
+    
+    
+    
+    
+    
+
+           
+           
+           
+           
+         @media (min-width: 768px) {
+             body{
+                 background: url(../images/768fon.png); 
+                 background-repeat-y: no-repeat;
+             }
+             
+           
+             
+             
+             header{
+                height: 795px; 
+                
+             }
+			 
+			  .conteiner1 {
+                    height: 240px;
+					text-align: center; 
+					margin: 0 auto;
+              }
+			 
+            .content1{
+                height: 346px;
+                display: -webkit-flex;
+                display: flex;
+                width: 700px ; 
+                vertical-align: middle;
+				text-align: center;         
+            }
+            
+
+           
+       
+            .conteiner2 {
+                   margin: 130px;
+                   vertical-align: middle;
+                   height: 555px;
+                   -webkit-float: center;
+                   -moz-float: center;
+                   float: center;
+                   -webkit-margin: 0 auto;
+                   -moz-margin: 0 auto;
+                   margin: 0 auto;
+
+              }
+              .tab1{
+                  height: 346px;
+                  vertical-align: middle;
+                  -webkit-margin: 50px 0 0 0;
+                  -moz-margin: 50px 0 0 0;
+                  margin: 50px 0 0 0;
+              }
+              .tab2{
+                  height: 346px;
+                  vertical-align: middle;
+                  -webkit-margin: 50px 0 0 0;
+                  -moz-margin: 50px 0 0 0;
+                  margin: 50px 0 0 0;
+              }
+              .tab3{
+                  height: 346px;
+                  vertical-align: middle;
+                  -webkit-margin: 50px 0 0 0;
+                  -moz-margin: 50px 0 0 0;
+                  margin: 50px 0 0 0;
+              }
+            .two{
+                -webkit-visibility: hidden;
+                visibility: hidden;
+            }
+             .three{
+                -webkit-visibility: visible;
+                visibility: visible;
+            }
+            .content2{
+                height: 609px;
+                width: 700px ; 
+                vertical-align: middle;
+                -moz-text-align: left;
+                text-align: left;
+            }
+          
+            .content3{
+                height: 396px;
+                display: -webkit-flex;
+                display: flex;  
+                width: 700px ; 
+                vertical-align: middle;
+                -moz-text-align: center;  
+                text-align: center;
+                -webkit-visibility: visible;
+                visibility: visible;
+                       
+            }
+            .podcon1{
+                display: -webkit-flex;
+                display: flex;
+            }
+           .four{
+                -webkit-visibility: visible;
+                visibility: visible;
+                width: 750px ;
+                -webkit-float: center;
+                -moz-float: center;
+                float: center;
+                -webkit-margin: 0 auto;
+                -moz-margin: 0 auto;
+                margin: 0 auto;
+                
+            }
+            .five{    
+           -moz-text-align: right;
+           text-align: right;
+       }
+            
+           }
+           
+           
+           
+           
+   @media (max-width: 480px) {
+             body{
+                 background: url(../images/480fon.png);
+                 background-repeat-y: no-repeat;
+                
+             }
+             .site{
+                 width: 800px;
+             }
+             
+             header{
+                height: 548px; 
+             }
+             .content1{   
+                height: 596px;
+               width: 1000px ;         
+            }
+             .content2{   
+                height: 1023px;
+                          
+            }
+            .conteiner1 {
+                    height: 148px;
+                    width: 900px;
+					text-align: center; 
+  
+              }
+       
+            .conteiner2 {
+                   vertical-align: middle;
+                   height: 400px;
+                   width: 900px;
+              }
+              
+               .content1{
+                  height: 596px;
+                  vertical-align: middle;
+                  -webkit-margin: 150px 0 0 0;
+                  -moz-margin: 150px 0 0 0;
+                  margin: 150px 0 0 0;
+                  width: 900px;
+                 
+              }
+      
+                  
+     
+             .three{
+                -webkit-visibility: hidden;
+                visibility: hidden;
+            }
+             .two{
+                -webkit-visibility: visible;
+                visibility: visible;
+            }
+            .content3{
+                height: 668px;  
+                vertical-align: middle;
+                -webkit-visibility: visible;
+                visibility: visible; 
+                       
+            }
+          
+             .podcon2{
+                 -ms-flex: block;
+                -webkit-flex: block;
+                 flex: block;
+           }
+           .four{
+            width: 680px ;
+            -webkit-float: center;
+            -moz-float: center;
+            float: center;
+            -webkit-margin: 0 auto;
+            -moz-margin: 0 auto;
+            margin: 0 auto; 
+           }
+           .four{
+                -webkit-visibility: visible;
+                visibility: visible;
+            }
+           .five{    
+           -moz-text-align: center;
+           text-align: center;
+             }
+           }
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           @media (min-width: 480px) {
+             body{
+                 background: url(../images/480fon.png);
+                 background-repeat-y: no-repeat;
+                
+             }
+             .site{
+                 width: 900px;
+             }
+             
+             header{
+                height: 548px; 
+             }
+             .content1{   
+                height: 596px;
+               width: 1000px ;         
+            }
+             .content2{   
+                height: 1023px;
+                          
+            }
+            .conteiner1 {
+                    height: 148px;
+                    width: 900px;
+					text-align: center; 
+  
+              }
+       
+            .conteiner2 {
+                   vertical-align: middle;
+                   height: 400px;
+                   width: 900px;
+              }
+              
+               .content1{
+                  height: 596px;
+                  vertical-align: middle;
+                  -webkit-margin: 150px 0 0 0;
+                  -moz-margin: 150px 0 0 0;
+                  margin: 150px 0 0 0;
+                  width: 900px;
+                 
+              }
+      
+                  
+     
+             .three{
+                -webkit-visibility: hidden;
+                visibility: hidden;
+            }
+             .two{
+                -webkit-visibility: visible;
+                visibility: visible;
+            }
+            .content3{
+                height: 668px;  
+                vertical-align: middle;
+                -webkit-visibility: visible;
+                visibility: visible; 
+                       
+            }
+          
+             .podcon2{
+                 -ms-flex: block;
+                -webkit-flex: block;
+                 flex: block;
+           }
+           .four{
+            width: 680px ;
+            -webkit-float: center;
+            -moz-float: center;
+            float: center;
+            -webkit-margin: 0 auto;
+            -moz-margin: 0 auto;
+            margin: 0 auto; 
+           }
+           .four{
+                -webkit-visibility: visible;
+                visibility: visible;
+            }
+           .five{    
+           -moz-text-align: center;
+           text-align: center;
+             }
+           }
+           
+           
+           
+           
+           
+           
+           
+           
+                    @media (max-width:320px) {
+             .site{
+                 width: 300px;
+                
+             }
+             body{
+                 background: url(../images/320fon.png);
+                 background-repeat-y: no-repeat; 
+             }
+             header{
+                height: 400px; 
+                text-align: center;
+                width: 300px;
+             }
+              .content1{   
+                height: 599px;
+                width: 300px ; 
+                text-align: center;  
+                    
+            }
+             .content2{   
+                height: 405px;
+                width: 300px ;     
+                text-align: center; 
+                    
+            }
+              .conteiner1 {
+                    height: 270px;
+                    width: 300px;
+                    text-align: center; 
+                    overflow: hidden; 
+                    margin: 0 auto;
+                    
+                    
+              }
+       
+            .conteiner2 {
+                   vertical-align: middle;
+                   height: 120px;
+                   width: 300px;
+                   text-align: center;
+                   
+                   
+              }
+             
+              .three{
+                -webkit-visibility: hidden;
+                visibility: hidden;
+                 
+            }
+             .two{
+                 -webkit-visibility: visible;
+                visibility: visible;
+                text-align: center; 
+            }
+             .content3{   
+                  -webkit-visibility: hidden;
+                   visibility: hidden;  
+                   text-align: center;  
+                     
+            }
+            .podcon2{
+                -ms-flex: block;
+                -webkit-flex: block;
+                flex: block;
+                
+           }
+           .four{
+                -webkit-visibility: hidden;
+                visibility: hidden;
+            }
+            .five{    
+           -moz-text-align: center;
+           text-align: center;
+            }
+            
+            h2{
+                margin: 0;     
+                color: #666;
+                padding-top: 90px;
+                font-size: 52px;
+                font-family: "trebuchet ms", sans-serif;    
+                }
+            
+            
+
+
+           }
+           
