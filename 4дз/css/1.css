@@ -56,6 +56,23 @@ display: flex;
     left: 895px;
 }
 
+.sidebar {
+    padding-top: 22px;
+}
+.news {
+    padding-top: 22px;
+}
+.table1{
+    margin-left: -6px;
+}
+.table2{
+    margin-left: 6px;
+}
+
+.table2 a{
+    padding: 0 4px;
+}
+
 .mos{
     display: block; 
     
