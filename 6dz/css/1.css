@@ -446,15 +446,8 @@ ul{
     padding: 1px 0 0px 4px; 
 }
 
-.liniya{
-        border-right: 1px solid  #9c9c9d;
-        padding: 0 20px 0 0;
-}
 
-.kol2{
-    padding: 0px 0 0 0;
-    margin: 0px 0 0 -10px;
-}
+
  
  .lineh{
      line-height: 0.6;
@@ -517,6 +510,54 @@ margin: 11px 15px 0 5px;
 padding: 0px 5px 5px 5px;
 }
 
+.str2{
+    display: flex;
+}
+
+.sitebar .stolb2{
+    width: 50px;
+}
+
+.sidebar .stolb1{
+    font-size: 9px;
+}
+.sidebar .stolb3{
+    font-size: 9px;
+}
+.sidebar .stolb4{
+   width: 110px;
+}
+
+.sidebar .stolb1 span{
+    padding: 3px;
+}
+.sidebar .stolb1 p{
+    padding: 3px;
+}
+.sidebar .stolb2 form{
+    padding-bottom: 3.8px;
+}
+.sidebar .stolb3 span{
+    padding: 3px;
+}
+.sidebar .stolb3 p{
+    padding: 3px;
+}
+.sidebar .stolb4 form{
+    padding-bottom: 3.8px;
+}
+
+.sidebar .str2{
+    padding: 8px 8px 0 8px;
+}
+.sidebar .stolb2{
+    padding-right: 20px;
+}
+.sidebar .str3{
+    margin-top: -5px;
+}
+
+
 .content {
 width: 192px;
 margin:0auto;
@@ -528,6 +569,27 @@ margin: 11px 9px 0 0;
 padding: -6px 5px 5px 5px;
 }
 
+
+.content .str2{
+    padding: 8px 8px 0 8px;
+}
+
+.content .stolb1{
+    width: 50px;
+}
+.content .str3{
+    margin-top: 16px;
+}
+.content  form{
+    padding-bottom: 3.8px;
+     padding-right: 3px;
+}
+.content .stolb1 span{
+   margin-top: 5px;
+   display: block;
+}
+
+
 .news {
 width: 260px;
 height: 128px;
@@ -538,6 +600,28 @@ margin: 11px 0px 0 0;
 padding:  0px 5px 5px 0px;
 }
 
+.news .stolb1{
+    display: flex;
+     padding-left: 7px; 
+     padding-right: 15px;
+    
+}
+.news  form{
+    padding: 7px 0;
+     padding-right: 3px;
+}
+.news .stolb11{
+    width: 80px;
+}
+.news .str1{
+    margin-top: 7px;
+    margin-left: 2px;
+}
+.news .stolb2{
+    margin-top: -12px;
+    padding-left: 7px; 
+      border-left: 1px solid  #9c9c9d; 
+}
 
 
 .site2{
@@ -568,12 +652,11 @@ margin: 0 0 0 -7px;
 width: 516px;
 margin:0 auto;
 height: 626px;
-background: url(../img/fontov.png);
 text-align: center;
 padding: 2px 4px 0 5px; 
 line-height: 1;
 margin: 0 2px 0 -1px;
-
+display: flex;
 }
 
 .content2 table{
