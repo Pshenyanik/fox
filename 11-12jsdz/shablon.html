@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> HomeWork </title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+        <script src="slider.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+
+
+
+<ul id="results">
+output results here.
+ </ul>
+<script type="text/html" id="item_tmpl">
+  <% for ( var i = 0; i < members.length; i++ ) { %>
+    <li id="<%=members[i].id%>" class="<%=(i % 2 == 1 ? " even" : " odd")%>">
+      <%=members[i].text%> 
+    </li>
+  <% } %>
+</script>
+  </div> 
+
+
+
+</body>
+</html>
